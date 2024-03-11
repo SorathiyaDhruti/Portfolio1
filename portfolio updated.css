@@ -1,0 +1,343 @@
+* {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem;
+    font: arial;
+    box-sizing: border-box;
+    color: rgb(252, 252, 252);
+
+}
+       
+       body {
+            font-family: Arial, sans-serif;
+           background-color: #f8fafa; 
+        }
+        .navbar {
+
+            top: 0;
+            left: 0;
+            background-color: #020000;
+            color: rgb(162, 137, 137);
+            text-align: center;
+            padding: 20px 10%;
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            position: fixed;
+            cursor: default;
+            background-size:contain;  
+        }
+
+        
+        .head-icon a{
+            
+            font-size: 2rem;
+            background-color: transparent;
+            color: #358ce9;
+            text-decoration: none;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 40px;
+            border: 2px solid #0f1010;
+            border-radius: 50%;
+            margin: 5px 2px 5px 5px;
+            animation: slideLeft 1.3s ease forwards;
+
+        }
+        .head-icon a:hover
+        {
+            background-color: #7c49d0;
+            color: #1779c4;
+            box-shadow: 0 0 20px #7c49d0;
+        
+        }
+        
+
+        nav
+        {
+            background-color: #000000;
+            text-align:center;
+            padding: 20px 0;
+            display:flex;
+           
+        }
+        nav a
+        {
+            justify-content: space-between;
+            max-width: 1200px;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(241, 237, 237);
+            font-size:x-large;
+            font: bolder;
+            border: 2px solid #0b0b0b;
+            border-radius: 1cm;
+            margin: 5px 5px 5px 5px;
+            animation: slideLeft 1.3s ease forwards;
+        }       
+        nav a:hover
+        {
+            background-color:#3382bf ;
+            color: #e1e2e3;
+        }
+
+        .homebar
+        {
+            align-items: center;
+            display: inline;
+        }
+        .avtar
+        {
+            width:100%;
+            height:auto;
+            border-radius: 100px;
+        }
+        .home-img
+        {
+        justify-content: center;
+        align-items: center;
+        border-radius: 70%;
+        margin: 13rem 0rem 1.7rem 31rem;
+        border: 2px solid transparent;
+        height: 8rem;
+        width: 8rem;
+        }
+
+        .home-box
+        {
+            align-items: center;
+            margin: 0rem 0rem 5rem 30rem;
+            height: 15rem;
+            width: 80vw;
+        }
+        #education:hover 
+        {
+            transform: 2s;
+        }
+        .edu-heading 
+        {
+            display: flex;
+            color: rgb(4, 4, 4);
+            font-size: xx-large;
+            font: bolder;
+            background-color: #fdfcfa;
+            align-items: center;
+            border: transparent;
+            border-radius: 2cm;
+            margin: 12rem 0rem 0rem 30rem;
+            
+        
+        }
+       
+        .education-box
+        {
+            display: flex;
+            align-items: center;
+            background-color: rgb(250, 247, 247);
+            border: transparent;
+            margin: 1.5rem 10rem 0 10rem;
+            height: 10rem;
+            width: 60vw;
+            color: #000000;
+        }
+        .college-img {
+            margin-top:5px ;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            background-image: url("C:\Users\DELL\Downloads\vvp.jpg");    
+        }
+        .highschool-img {
+            margin-top:5px ;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            background-image: url("tapovan.jpg");
+            background-size: cover;
+        }
+        .degree1 h3 {
+            color: #358ce9;
+            font-size: 1.5rem;
+        }
+        .degree1 h4 {
+            font-size: 1.2rem;
+            color: darkgreen;
+            margin-top: 0.5rem;
+        }
+        .degree1 p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            line-height: 1.4;
+            color: rgb(255, 251, 251);
+        }
+
+        #skills:hover 
+        {
+            transform: 2s;
+        }
+.skill-heading
+{
+    display: inline-block;
+    background-color: #f2f3f5;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    border-radius: 1cm;
+    margin: 12rem 10rem 0 33rem;
+    color: #000000;
+}
+
+.skills h2 {
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 10rem 10rem 0 0;
+}
+
+.skills h2 i
+{
+    border: 2px solid #f2f5f7;
+    border-radius: 1cm;
+    margin: 5px 5px 5px 5px;
+}
+.skills h2 span {
+    font: larger;
+    font-size: 5rem;
+    color: #7c49d0;
+    border: transparent;
+    border-radius: 1cm;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.skill-background {
+    height: 70vh;
+    width: 70vw;
+    background-color: transparent;
+    display: flex;
+    margin: 1.5rem 10rem 0 13rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.skill-box
+{
+    height: 8rem;
+    width: 20%;
+    background-color: rgb(248, 250, 253);
+    text-align: center;
+    margin: 2rem;
+    border: 50px;
+    transition: 0.5s;
+}
+
+.box1 {
+    margin: 2rem 0 0rem 0;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.skill-box:hover {
+    border: transparent;
+    box-shadow: 0 0 50px #7c49d0, 0 0 30px #7c49d0, 0 0 25px #09121b;
+}
+
+.box1{
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color:rgb(15, 15, 15);
+}
+.box2 {
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color:rgb(15, 15, 15);
+}
+
+.box4 {
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(15,15,15);
+}
+
+.box5 {
+    margin: 0rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(15,15,15);
+}
+
+.box6{
+    margin: 0rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(15,15,15);
+   
+}
+
+
+.skill-box h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+.project-box
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right:10 px;
+    background-color: #c0c1c4;
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pro-box{
+    margin: 20 px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 247, 250);
+    box-shadow: 0 2px 5px rgb(248, 248, 249);
+    border: transparent;
+    margin: 10rem 10rem 0rem 10rem;
+    height: 9rem;
+    width: 50vw;
+    align-content: center;
+    color: black;
+}
+.pro-heading 
+{  
+display: inline-block;
+color: black;
+font-size: 27px;
+font: bolder;
+background-color:rgb(245, 247, 248);
+align-items:right;
+align-content: center;
+border: transparent;
+margin: center;
+height: 40px;
+box-shadow: #358ce9;
+width:15vw;
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 10px;
+}
+footer 
+{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+       
